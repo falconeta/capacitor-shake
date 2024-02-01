@@ -1,17 +1,11 @@
-<a href="https://capgo.app/"><img src='https://raw.githubusercontent.com/Cap-go/capgo/main/assets/capgo_banner.png' alt='Capgo - Instant updates for capacitor'/></a>
-
-<div align="center">
-<h2><a href="https://capgo.app/">Check out: Capgo — Instant updates for capacitor</a></h2>
-</div>
-
-# @capgo/capacitor-shake
+# @falconeta/capacitor-shake
 
 Detect shake gesture in device
 
 ## Install
 
 ```bash
-npm install @capgo/capacitor-shake
+npm install @falconeta/capacitor-shake
 npx cap sync
 ```
 
@@ -19,7 +13,7 @@ npx cap sync
 
 <docgen-index>
 
-* [`addListener('shake', ...)`](#addlistenershake)
+* [`addListener('shake', ...)`](#addlistenershake-)
 * [Interfaces](#interfaces)
 
 </docgen-index>
@@ -38,7 +32,7 @@ addListener(eventName: "shake", listenerFunc: () => void) => Promise<PluginListe
 | **`eventName`**    | <code>'shake'</code>       |
 | **`listenerFunc`** | <code>() =&gt; void</code> |
 
-**Returns:** <code>any</code>
+**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt; & <a href="#pluginlistenerhandle">PluginListenerHandle</a></code>
 
 --------------------
 
@@ -48,8 +42,8 @@ addListener(eventName: "shake", listenerFunc: () => void) => Promise<PluginListe
 
 #### PluginListenerHandle
 
-| Prop         | Type                      |
-| ------------ | ------------------------- |
-| **`remove`** | <code>() =&gt; any</code> |
+| Prop         | Type                                      |
+| ------------ | ----------------------------------------- |
+| **`remove`** | <code>() =&gt; Promise&lt;void&gt;</code> |
 
 </docgen-api>
