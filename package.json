@@ -1,6 +1,6 @@
 {
   "name": "@falconeta/capacitor-shake",
-  "version": "5.0.30",
+  "version": "5.0.31",
   "description": "Detect shake gesture in device",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapgoCapacitorShake.podspec"
+    "FalconetaCapacitorShake.podspec"
   ],
   "author": "Martin Donadieu <martindonadieu@gmail.com>",
   "license": "MIT",
