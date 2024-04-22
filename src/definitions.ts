@@ -4,5 +4,5 @@ export interface CapacitorShakePlugin {
   addListener(
     eventName: "shake",
     listenerFunc: () => void
-  ): Promise<PluginListenerHandle> & PluginListenerHandle;
+  ): Promise<PluginListenerHandle>
 }
