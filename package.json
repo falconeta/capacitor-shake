@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cap-go/capacitor-shake.git.git"
+    "url": "git+https://github.com/falconeta/capacitor-shake.git.git"
   },
   "bugs": {
-    "url": "https://github.com/Cap-go/capacitor-shake.git/issues"
+    "url": "https://github.com/falconeta/capacitor-shake.git/issues"
   },
   "keywords": [
     "capacitor",
