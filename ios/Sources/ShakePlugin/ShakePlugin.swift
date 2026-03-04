@@ -19,7 +19,11 @@ extension UIWindow {
  * here: https://capacitorjs.com/docs/plugins/ios
  */
 @objc(CapacitorShakePlugin)
-public class CapacitorShakePlugin: CAPPlugin {
+public class CapacitorShakePlugin: CAPPlugin, CAPBridgedPlugin {
+
+    public let identifier = "ShakePlugin"
+    public let jsName = "CapacitorShake"
+    public let pluginMethods: [CAPPluginMethod] = []
 
     override public func load() {
         NotificationCenter.default.addObserver(
